@@ -3,73 +3,24 @@ class App
     runApplication()
     {
         console.log("hello world!");
-        let canvas = document.getElementById("canvasId");
-        let g = canvas.getContext("2d");
-        g.beginPath()
-        g.fillStyle = "grey";
-        g.moveTo(200,300);
-        g.lineTo(300,100);
-        g.lineTo(700,200);
-        g.lineTo(600,400);
-        g.lineTo(200,300);
-        g.closePath();
-        g.stroke();
-        g.fill();        
-        console.log(canvas);
-        g.beginPath()
-        g.fillStyle = "brown";
-        g.moveTo(700,200);
-        g.lineTo(600,400);
-        g.lineTo(800,300);
-        g.lineTo(700,200);
-        g.closePath();
-        g.stroke();
-        g.fill();        
-        console.log(canvas); 
-        g.beginPath()   
-        g.fillStyle = "brown"; 
-        g.moveTo(800,300);
-        g.lineTo(800,500);
-        g.lineTo(600,600);
-        g.lineTo(600,400);
-        g.closePath();
-        g.stroke();
-        g.fill();        
-        console.log(canvas); 
-        g.beginPath()
-        g.fillStyle = "brown";
-        g.lineTo(600,600);
-        g.lineTo(600,400);
-        g.lineTo(200,300);
-        g.lineTo(200,500);
-        g.lineTo(600,600);
-        g.closePath();
-        g.stroke();
-        g.fill();        
-        console.log(canvas); 
-        g.beginPath()
-        g.fillStyle ="blue";
-        g.moveTo(780,500);
-        g.lineTo(620,570);
-        g.lineTo(620,400);
-        g.lineTo(780,320);
-        g.closePath();
-        g.stroke();
-        g.fill();  
-        console.log(canvas);
-        g.beginPath()
-        g.fillStyle = "black";
-        g.moveTo(500,180);
-        g.lineTo(500,100);
-        g.lineTo(550,100);
-        g.lineTo(550,200);
-        g.closePath();
-        g.stroke();
-        g.fill();  
-        console.log(canvas);
+        let appName = "github";
+        let versienummer = 0.9;
+        let versiedatum = new Date("2022/11/22");
+        let makes = "Lena Kushniruk";
+        let copyright = "Het is gemaakt bij Lena";
+        let distributeur = "MediaCollege";
+        let Darkmode = true
+        console.log(appName)
+        console.log(versienummer)
+        console.log(versiedatum)
+        console.log(makes)
+        console.log(copyright)
+        console.log(distributeur)
+        console.log(Darkmode)
+         
+        //code gaat hier!
+    
     }
 }
 let app = new App();
 app.runApplication();
-
-
